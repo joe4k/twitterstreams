@@ -36,23 +36,27 @@ You need to have a [Bluemix](https://bluemix.net) account.
 1. Open a Terminal window.
 2. Download and install [Cloud Foundry CLI](https://github.com/cloudfoundry/cli#downloads)
 3. Execute the following commands in a Terminal window
-  * cf login
+  * ```cf login```
+
      API endpoint: https://api.ng.bluemix.net
+
      username:	your_bluemix_username
+
      password: 	your_bluemix_password
 
      ==> Connect to your bluemix account
-  * cf create-service cloudantNoSQLDB Lite twittercloudant
+  * ```cf create-service cloudantNoSQLDB Lite twittercloudant```
 
      ==> create a Cloudant service using Lite plan and call it twittercloudant
-  * cf create-service-key twittercloudant svcKey
-  * cf service-key twittercloudant svcKey
+  * ```cf create-service-key twittercloudant svcKey```
+  * ```cf service-key twittercloudant svcKey```
 
      ==> returns username, password, and url credentials for Cloudant service
+
      ==> Copy these as they’re needed in the notebook to access Cloudant
 
 ## Runnig the Notebooks
-* **git clone https://github.com/joe4k/twitterstreams.git**
+* ```git clone https://github.com/joe4k/twitterstreams.git```
 * Open **example_parms.json** in a text editor and update the parameters:
   * twitter_consumer_key
   * twitter_consumer_secret
@@ -64,11 +68,14 @@ You need to have a [Bluemix](https://bluemix.net) account.
   * cloudant_database_name
   
   ==> The instructions above explain how to obtain twitter and cloudant credentials.
+
   ==> For cloudant_database_name, specify a name for the database to store the tweets in.
-* **jupyter notebook** 
+* ```jupyter notebook```
+
 ==> this launches the notebook in a browser.
 * Navigate to **notebooks** directory
 * **Click TwitterStreams.ipynb**
+
 ==> This launches the notebook for collecting tweets
 * Point to example_parms.json file in your notebook.
 * Execute the various steps of the notebook by providing the required parameters.
