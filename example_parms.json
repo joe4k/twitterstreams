@@ -1,0 +1,10 @@
+{
+	"twitter_consumer_key":"YOUR TWITTER app consumer key",
+	"twitter_consumer_secret": "YOUR TWITTER app consumer secret",
+	"twitter_access_token": "YOUR TWITTER app access token",
+	"twitter_access_token_secret": "YOUR TWITTER app access token secret",
+	"cloudant_username": "YOUR CLOUDANT service username",
+	"cloudant_password": "YOUR CLOUDANT service password",
+	"cloudant_url": "YOUR CLOUDANT url",
+	"cloudant_database_name": "YOUR CLOUDANT database name"
+}
