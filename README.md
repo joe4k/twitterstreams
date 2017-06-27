@@ -80,6 +80,11 @@ You need to have a [Bluemix](https://bluemix.net) account.
 * Point to example_parms.json file in your notebook.
 * Execute the various steps of the notebook by providing the required parameters.
 
+## Creating a [dashDB](https://console.bluemix.net/docs/services/dashDB/dashDB.html#dashDB) Warehouse
+
+This step is optional but the following video outlines how to create a dashDB warehouse from Cloudant:
+https://developer.ibm.com/clouddataservices/docs/dashdb/load/store-tweets-using-bluemix-node-red-cloudant-and-dashdb/
+
 # License
 
   This sample code is licensed under Apache 2.0.
