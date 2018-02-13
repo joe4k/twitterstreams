@@ -8,7 +8,7 @@ To use these notebooks, you need the following:
 * [Git](https://git-scm.com/downloads)
 * [python 2](https://www.python.org/downloads/)
 * [Anaconda](https://www.continuum.io/downloads) - Installing this package also installs the Jupyter notebook package, which includes iPython (now referred to as jupyter)
-* A [Bluemix](https://bluemix.net) account
+* A [IBM Cloud](https://ibm.com/cloud) account
 * An instance of Cloudant service
 
 If you are using a Linux system, the git, anaconda, python, and node.js packages may be installable through your system's package manager.
@@ -31,7 +31,7 @@ At this point, you should have the required credentials to connect to Twitter’
 ### Cloudant Credentials
 If you already have Cloudant credentials, you can skip this section.
 
-You need to have a [Bluemix](https://bluemix.net) account.
+You need to have an [IBM Cloud](https://ibm.com/cloud) account.
 
 1. Open a Terminal window.
 2. Download and install [Cloud Foundry CLI](https://github.com/cloudfoundry/cli#downloads)
@@ -40,11 +40,11 @@ You need to have a [Bluemix](https://bluemix.net) account.
 
      API endpoint: https://api.ng.bluemix.net
 
-     username:	your_bluemix_username
+     username:	your_ibmcloud_username
 
-     password: 	your_bluemix_password
+     password: 	your_ibmcloud_password
 
-     ==> Connect to your bluemix account
+     ==> Connect to your IBM Cloud account
   * ```cf create-service cloudantNoSQLDB Lite twittercloudant```
 
      ==> create a Cloudant service using Lite plan and call it twittercloudant
