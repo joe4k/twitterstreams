@@ -80,10 +80,10 @@ You need to have an [IBM Cloud](https://ibm.com/cloud) account.
 * Point to example_parms.json file in your notebook.
 * Execute the various steps of the notebook by providing the required parameters.
 
-## Creating a [dashDB](https://console.bluemix.net/docs/services/dashDB/dashDB.html#dashDB) Warehouse
+## Simple load from Cloudant to [DB2 Warehouse on Cloud](https://console.bluemix.net/catalog/services/dashdb) 
 
-This step is optional but the following video outlines how to create a dashDB warehouse from Cloudant:
-https://developer.ibm.com/clouddataservices/docs/dashdb/load/store-tweets-using-bluemix-node-red-cloudant-and-dashdb/
+This step is optional but the following tutorial outlines how you can transfer data from Cloudant to DB2 Warehouse on Cloud:
+https://github.com/cloudant-labs/sql-cloudant-notebooks/blob/master/save-to-db2-warehouse/animaldb-python-load-to-dashdb.md
 
 # License
 
